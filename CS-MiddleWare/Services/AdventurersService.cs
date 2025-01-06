@@ -15,5 +15,11 @@ namespace CS_MiddleWare.Services
         {
             return model.GetAdventurers();
         }
+
+        public Adventurer addAdventurer(Adventurer ad)
+        {
+            return model.AddAdventurer(ad);
+        }
+
     }
 }

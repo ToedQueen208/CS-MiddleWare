@@ -20,5 +20,13 @@ namespace CS_MiddleWare.Controllers
             var listOfAdventurers = service.GetAdventurers();
             return Ok(listOfAdventurers);
         }
+
+        [HttpPost]
+        public IActionResult PostAdventurer(Adventurer ad)
+        {
+
+            return Ok(service.addAdventurer(ad));
+        }
+
     }
 }

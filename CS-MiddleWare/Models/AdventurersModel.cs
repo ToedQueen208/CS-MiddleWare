@@ -15,5 +15,15 @@
             return db.adventurers.ToList();
 
         }
+
+        public Adventurer AddAdventurer(Adventurer ad)
+        {
+            // return null;
+             db.adventurers.Add(ad);
+            db.SaveChanges();
+            return ad;
+        
+        }
+
     }
 }

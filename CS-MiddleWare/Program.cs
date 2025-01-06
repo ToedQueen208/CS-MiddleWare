@@ -1,4 +1,5 @@
 
+using CS_MiddleWare.Middleware;
 using CS_MiddleWare.Models;
 using CS_MiddleWare.Services;
 using Microsoft.EntityFrameworkCore;
@@ -20,7 +21,12 @@ namespace CS_MiddleWare
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
             builder.Services.AddDbContext<MyAdventureDBContext>(options => options.UseSqlServer(connectionString));
+
+            builder.Services.AddTransient<LoggerMiddleware>();
+
             var app = builder.Build();
+
+            app.UseMiddleware<LoggerMiddleware>();
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
