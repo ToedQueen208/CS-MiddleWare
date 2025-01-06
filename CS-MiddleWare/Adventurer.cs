@@ -1,4 +1,6 @@
-﻿namespace CS_MiddleWare
+﻿using System.Text.Json.Serialization;
+
+namespace CS_MiddleWare
 {
     public class Adventurer
     {
@@ -8,6 +10,7 @@
             this.fightingClass = fightingClass;
         }
 
+        [JsonIgnore]
         public int id { get; set; }
         public string name { get; set; }
         public int level { get; set; } = 1;

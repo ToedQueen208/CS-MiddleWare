@@ -33,3 +33,145 @@
  Time: 2025-01-06 14:50:46 
  Method: POST 
  Path:/AdventurersControllers
+ REQUEST 
+ Time: 2025-01-06 15:00:41 
+ Method: GET 
+ Path:/swagger/index.html
+ RESPONSE 
+ 200
+ REQUEST 
+ Time: 2025-01-06 15:00:41 
+ Method: GET 
+ Path:/swagger/favicon-32x32.png
+ RESPONSE 
+ 200
+ REQUEST 
+ Time: 2025-01-06 15:00:42 
+ Method: GET 
+ Path:/swagger/v1/swagger.json
+ RESPONSE 
+ 200
+ REQUEST 
+ Time: 2025-01-06 15:01:23 
+ Method: POST 
+ Path:/AdventurersControllers
+ RESPONSE 
+ 200
+ REQUEST 
+ Time: 2025-01-06 15:01:38 
+ Method: POST 
+ Path:/AdventurersControllers
+ RESPONSE 
+ 200
+ REQUEST 
+ Time: 2025-01-06 15:01:50 
+ Method: POST 
+ Path:/AdventurersControllers
+ RESPONSE 
+ 200
+ REQUEST 
+ Time: 2025-01-06 15:02:03 
+ Method: POST 
+ Path:/AdventurersControllers
+ REQUEST 
+ Time: 2025-01-06 15:05:00 
+ Method: GET 
+ Path:/swagger
+ RESPONSE 
+ 301
+ REQUEST 
+ Time: 2025-01-06 15:05:00 
+ Method: GET 
+ Path:/swagger/index.html
+ RESPONSE 
+ 200
+ REQUEST 
+ Time: 2025-01-06 15:05:01 
+ Method: GET 
+ Path:/swagger/swagger-ui.css
+ RESPONSE 
+ 200
+ REQUEST 
+ Time: 2025-01-06 15:05:01 
+ Method: GET 
+ Path:/swagger/swagger-ui-standalone-preset.js
+ RESPONSE 
+ 200
+ REQUEST 
+ Time: 2025-01-06 15:05:01 
+ Method: GET 
+ Path:/swagger/favicon-32x32.png
+ RESPONSE 
+ 200
+ REQUEST 
+ Time: 2025-01-06 15:05:13 
+ Method: GET 
+ Path:/swagger/index.html
+ RESPONSE 
+ 200
+ REQUEST 
+ Time: 2025-01-06 15:05:14 
+ Method: GET 
+ Path:/swagger/swagger-ui-standalone-preset.js
+ RESPONSE 
+ 200
+ REQUEST 
+ Time: 2025-01-06 15:05:14 
+ Method: GET 
+ Path:/swagger/favicon-32x32.png
+ RESPONSE 
+ 200
+ REQUEST 
+ Time: 2025-01-06 15:05:32 
+ Method: GET 
+ Path:/swagger/index.html
+ RESPONSE 
+ 200
+ REQUEST 
+ Time: 2025-01-06 15:05:32 
+ Method: GET 
+ Path:/swagger/swagger-ui-bundle.js
+ RESPONSE 
+ 200
+ REQUEST 
+ Time: 2025-01-06 15:05:32 
+ Method: GET 
+ Path:/swagger/favicon-32x32.png
+ RESPONSE 
+ 200
+ REQUEST 
+ Time: 2025-01-06 15:05:33 
+ Method: GET 
+ Path:/swagger/v1/swagger.json
+ RESPONSE 
+ 200
+ REQUEST 
+ Time: 2025-01-06 15:08:10 
+ Method: GET 
+ Path:/swagger/index.html
+ RESPONSE 
+ 200
+ REQUEST 
+ Time: 2025-01-06 15:08:10 
+ Method: GET 
+ Path:/swagger/swagger-ui.css
+ RESPONSE 
+ 200
+ REQUEST 
+ Time: 2025-01-06 15:08:10 
+ Method: GET 
+ Path:/swagger/favicon-32x32.png
+ RESPONSE 
+ 200
+ REQUEST 
+ Time: 2025-01-06 15:08:10 
+ Method: GET 
+ Path:/swagger/v1/swagger.json
+ RESPONSE 
+ 200
+ REQUEST 
+ Time: 2025-01-06 15:08:47 
+ Method: POST 
+ Path:/AdventurersControllers
+ RESPONSE 
+ 200

@@ -23,10 +23,12 @@ namespace CS_MiddleWare
             builder.Services.AddDbContext<MyAdventureDBContext>(options => options.UseSqlServer(connectionString));
 
             builder.Services.AddTransient<LoggerMiddleware>();
+            builder.Services.AddTransient<ValidateNameMiddleWare>();
 
             var app = builder.Build();
 
             app.UseMiddleware<LoggerMiddleware>();
+            app.UseMiddleware<ValidateNameMiddleWare>();
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
