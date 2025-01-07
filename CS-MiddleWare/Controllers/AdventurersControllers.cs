@@ -5,11 +5,11 @@ namespace CS_MiddleWare.Controllers
 {
     [ApiController]
     [Route("/[controller]")]
-    public class AdventurersControllers : ControllerBase
+    public class AdventurersController : ControllerBase
     {
         private AdventurersService service;
 
-        public AdventurersControllers(AdventurersService sr)
+        public AdventurersController(AdventurersService sr)
         {
             service = sr;
         }
@@ -22,6 +22,7 @@ namespace CS_MiddleWare.Controllers
         }
 
         [HttpPost]
+
         public IActionResult PostAdventurer(Adventurer ad)
         {
 
